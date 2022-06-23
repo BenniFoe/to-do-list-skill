@@ -7,6 +7,8 @@ class ToDoList(MycroftSkill):
         MycroftSkill.__init__(self)
         self.bullet_points = []
 
+    def initialize(self):
+        pass
 
     # @intent_handler('list.do.to.intent')
     # def handle_list_do_to(self, message):
