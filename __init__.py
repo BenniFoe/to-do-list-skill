@@ -16,7 +16,7 @@ class ToDoList(MycroftSkill):
 
     @intent_handler('test.intent')
     def handle_test_intent(self):
-        self.speak_dialog('lelelelelelelelelelelel')
+        self.speak('lelelelelelelelelelelel')
 
     @intent_handler('add.simply.one.bullet.point.intent')
     def handle_add_one_bullet_point(self):
